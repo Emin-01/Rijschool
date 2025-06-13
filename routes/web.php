@@ -20,7 +20,10 @@ Route::middleware('auth')->group(function () {
 
 
 
-Route::resource('leerlingen', LeerlingController::class);
+Route::resource('leerlingen', LeerlingController::class)->parameters([
+    'leerlingen' => 'leerling'
+]);
+
 
 
 require __DIR__.'/auth.php';

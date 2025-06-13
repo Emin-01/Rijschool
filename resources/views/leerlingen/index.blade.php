@@ -2,7 +2,7 @@
 <x-app-layout>
     <div class="max-w-4xl mx-auto py-8">
         <h1 class="text-2xl font-bold mb-6">Leerlingenlijst</h1>
-        <a href="{{ route('leerlingen.create') }}" class="inline-block mb-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">Nieuwe leerling toevoegen</a>
+        <a href="{{ route('leerlingen.create') }}" class="inline-block mb-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-green-700 transition">Nieuwe leerling toevoegen</a>
         <div class="overflow-x-auto">
             <table class="min-w-full bg-white border border-gray-200 rounded shadow">
                 <thead>

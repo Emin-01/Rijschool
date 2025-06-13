@@ -35,7 +35,7 @@ class LeerlingController extends Controller
 
     public function edit(Leerling $leerling)
     {
-        return view('leerlingen.edit', compact('leerling'));
+        return view('leerlingen.edit', compact('leerling'))->with('success', session('success'));
     }
 
     public function update(Request $request, Leerling $leerling)

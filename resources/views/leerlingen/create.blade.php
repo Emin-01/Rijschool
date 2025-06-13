@@ -42,7 +42,7 @@
             </div>
 
             <button type="submit"
-                class="py-2 px-4 bg-blue-600 text-white font-semibold rounded hover:bg-blue-700 transition w-40 mx-auto block">Toevoegen</button>
+                class="py-2 px-4 bg-blue-600 text-white font-semibold rounded hover:bg-green-700 transition w-40 mx-auto block">Toevoegen</button>
         </form>
     </div>
 </x-app-layout>
